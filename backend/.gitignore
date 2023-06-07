@@ -1,0 +1,49 @@
+# Django project files
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+
+# Static files
+staticfiles/
+*.static/
+
+# Media files
+media/
+
+# Environment variables
+venv
+.env
+
+# Development files
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# Secret key file (if used)
+secret_key.txt
+
+# Other common files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Ignore migrations if using South or Django >= 1.7
+/migrations/
+
+# macOS files
+.DS_Store
+
+# Linux files
+*~
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
